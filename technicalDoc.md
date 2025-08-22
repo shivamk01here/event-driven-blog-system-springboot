@@ -74,8 +74,7 @@ The system comprises a Spring Boot application (`blog-service`) for business log
 ***
 
 ### High-Level Diagram
-
-![Untitled diagram _ Mermaid Chart-2025-08-22-090147.png](../../Users/shiva/Downloads/Untitled%20diagram%20_%20Mermaid%20Chart-2025-08-22-090147.png)
+<img width="3840" height="1550" alt="Untitled diagram _ Mermaid Chart-2025-08-22-090147" src="https://github.com/user-attachments/assets/177c9235-ef60-44ce-9f6a-e0ef8fe54a1e" />
 
 ***
 
@@ -87,7 +86,7 @@ Three main tables/entities:
 - **posts:** Blog posts (references `user` as author).
 - **comments:** Comments on posts (references both `user` and `post`).
 
-![Untitled diagram _ Mermaid Chart-2025-08-22-090223.png](../../Users/shiva/Downloads/Untitled%20diagram%20_%20Mermaid%20Chart-2025-08-22-090223.png)
+<img width="2387" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-22-090223" src="https://github.com/user-attachments/assets/54c99da1-3696-470b-8b5a-0c347f9056af" />
 ***
 
 ## 5. Low-Level Design (LLD)
@@ -122,8 +121,7 @@ simple-blog-system/
 ***
 
 ### 5.2. Class Diagram (UML)
-
-![Untitled diagram _ Mermaid Chart-2025-08-22-090247.png](../../Users/shiva/Downloads/Untitled%20diagram%20_%20Mermaid%20Chart-2025-08-22-090247.png)
+<img width="3840" height="1249" alt="Untitled diagram _ Mermaid Chart-2025-08-22-090247" src="https://github.com/user-attachments/assets/79fb1c33-d649-4d74-8966-80d006119184" />
 
 ***
 

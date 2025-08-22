@@ -225,17 +225,6 @@ mvn test
 
 ***
 
-## License
-
-MIT (or specify your license)
-
-***
-
-**Diagrams & Visuals:**  
-Insert your exported Mermaid/Excalidraw/Whimsical PNGs in the correct locations above for a seamless onboarding and architectural overview.
-
-***
-
 **Questions or help needed?**  
 Raise an issue or contact repo maintainers!
 

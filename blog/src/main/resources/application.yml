@@ -1,0 +1,40 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/blog
+    username: bloguser
+    password: blogpass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+  kafka:
+    bootstrap-servers: kafka:9092
+  sql:
+    init:
+      mode: always
+
+jwt:
+  secret: my-blog-jwt-secret
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "prometheus,health,info"
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+  endpoint:
+    prometheus:
+      enabled: true
+
+logging:
+  level:
+    org.springframework: INFO
